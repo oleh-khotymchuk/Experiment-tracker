@@ -189,5 +189,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Charts powered by [Chart.js](https://www.chartjs.org/)
 - CSV parsing by [Papa Parse](https://www.papaparse.com/)
 - Deployed on [GitHub Pages](https://pages.github.com/)
-
-
