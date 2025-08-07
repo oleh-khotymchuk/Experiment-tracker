@@ -2,13 +2,14 @@
 	<div id="app">
 		<Toast />
 		<ConfirmDialog />
-		<router-view />
+		<ExperimentTracker />
 	</div>
 </template>
 
 <script setup>
 import Toast from "primevue/toast";
 import ConfirmDialog from "primevue/confirmdialog";
+import ExperimentTracker from "./components/ExperimentTracker.vue";
 </script>
 
 <style>
