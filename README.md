@@ -151,20 +151,6 @@ src/
 - **Memory Management**: Proper cleanup of chart instances and event listeners
 - **Responsive Loading**: Progressive loading with visual feedback
 
-## Screenshots
-
-### Light Theme
-
-![Light Theme Dashboard](docs/screenshots/light-theme.png)
-
-### Dark Theme
-
-![Dark Theme Dashboard](docs/screenshots/dark-theme.png)
-
-### Mobile View
-
-![Mobile Responsive](docs/screenshots/mobile-view.png)
-
 ## Inspired By
 
 This application draws inspiration from leading ML experiment tracking platforms:
@@ -193,11 +179,6 @@ We welcome contributions! Please follow these steps:
 - Test on multiple browsers and devices
 - Update documentation for new features
 
-## Issues & Support
-
-- 🐛 **Bug Reports**: [Create an issue](https://github.com/oleh-khotymchuk/Experiment-tracker/issues)
-- 💡 **Feature Requests**: [Start a discussion](https://github.com/oleh-khotymchuk/Experiment-tracker/discussions)
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -209,6 +190,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - CSV parsing by [Papa Parse](https://www.papaparse.com/)
 - Deployed on [GitHub Pages](https://pages.github.com/)
 
----
 
-⭐ **If this project helped you, please give it a star!** ⭐
