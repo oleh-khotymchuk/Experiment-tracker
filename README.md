@@ -2,7 +2,7 @@
 
 A modern, responsive experiment tracking application built with Vue 3 and PrimeVue for visualizing machine learning experiment data.
 
-🚀 **[Live Demo](https://yourusername.github.io/experiment-tracker/)** | 📊 **[Sample Data](public/sample-data.csv)**
+🚀 **[Live Demo](https://oleh-khotymchuk.github.io/Experiment-tracker/)** | 📊 **[Sample Data](public/sample-data.csv)**
 
 ## Features
 
@@ -67,8 +67,8 @@ A sample CSV file is available at `public/sample-data.csv` for testing.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/experiment-tracker.git
-cd experiment-tracker
+git clone https://github.com/oleh-khotymchuk/Experiment-tracker.git
+cd Experiment-tracker
 
 # Install dependencies
 npm install
@@ -102,7 +102,7 @@ This repository is configured for automatic deployment to GitHub Pages via GitHu
 
 1. Push your changes to the `main` branch
 2. GitHub Actions will automatically build and deploy the application
-3. Your app will be available at `https://yourusername.github.io/experiment-tracker/`
+3. Your app will be available at `https://oleh-khotymchuk.github.io/Experiment-tracker/`
 
 ### Manual Deployment
 
@@ -195,9 +195,8 @@ We welcome contributions! Please follow these steps:
 
 ## Issues & Support
 
-- 🐛 **Bug Reports**: [Create an issue](https://github.com/yourusername/experiment-tracker/issues)
-- 💡 **Feature Requests**: [Start a discussion](https://github.com/yourusername/experiment-tracker/discussions)
-- ❓ **Questions**: Check the [Wiki](https://github.com/yourusername/experiment-tracker/wiki) or start a discussion
+- 🐛 **Bug Reports**: [Create an issue](https://github.com/oleh-khotymchuk/Experiment-tracker/issues)
+- 💡 **Feature Requests**: [Start a discussion](https://github.com/oleh-khotymchuk/Experiment-tracker/discussions)
 
 ## License
 

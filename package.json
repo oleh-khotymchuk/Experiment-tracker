@@ -13,9 +13,9 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/yourusername/experiment-tracker.git"
+		"url": "https://github.com/oleh-khotymchuk/Experiment-tracker.git"
 	},
-	"homepage": "https://yourusername.github.io/experiment-tracker/",
+	"homepage": "https://oleh-khotymchuk.github.io/Experiment-tracker/",
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
