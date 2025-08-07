@@ -905,16 +905,11 @@ const getSelectedExperimentsForMetric = (metric) => {
 };
 
 const createChart = (metric, canvasElement, enableZoom = true) => {
-	// Verify canvas is clean before creating chart
+	// Properly clean up any existing chart before creating a new one
 	const existingChart = ChartJS.getChart(canvasElement);
 	if (existingChart) {
-		console.error(
-			`Canvas for ${metric} still has existing chart:`,
-			existingChart
-		);
-		throw new Error(
-			`Canvas is already in use. Chart with ID '${existingChart.id}' must be destroyed before the canvas can be reused.`
-		);
+		console.warn(`Destroying existing chart for ${metric} before creating new one`);
+		destroyChart(existingChart);
 	}
 
 	const ctx = canvasElement.getContext("2d");
@@ -1353,7 +1348,8 @@ const destroyChart = (chart) => {
 			chart.unbindEvents();
 		}
 
-		// Finally destroy the chart		chart.destroy();
+		// Finally destroy the chart
+		chart.destroy();
 		return true;
 	} catch (error) {
 		console.warn("Error destroying chart:", error);
